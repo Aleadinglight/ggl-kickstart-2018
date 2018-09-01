@@ -1,6 +1,6 @@
 # Kickstart Practice round 2018
 
-## Problem A [(link)](../master/Kickstart%20Practice%20Round%202018/A/main.cpp):
+## Problem A [(link)](./A/main.cpp):
 This is a problem about how many lines go through one particular point. We can use a tracking array for it. For example, consider a line `l-r`, we will add 1 to `track[l]` and minus 1 from `track[r+1]`. Then we create an accumulate matrix for this track[] array: `accumulate[i] = accumulate[i-1]+track[i]`. This means all the point from `l -> r` will be notice that they have `+1 line` here when we add 1 to `track[l]`, and `-1` at `r+1` to determine that this line is over at this position.
 
 Note on bugs: 
