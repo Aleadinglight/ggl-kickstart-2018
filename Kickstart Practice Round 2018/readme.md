@@ -19,4 +19,4 @@ We see the recursive pattern here: s3[4] is the s3[2] after reversed position an
 
 Notes:
 - If the `Length`/2+1 > `Position` then we don't have to switch it, we just need to consider the other half string with new `Length`= `oldLength`/2 and the same `Position`.
--
+- Return `!result(length, position)` will do the switching easily.
