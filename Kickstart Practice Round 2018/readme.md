@@ -20,3 +20,10 @@ We see the recursive pattern here: s3[4] is the s3[2] after reversed position an
 Notes:
 - If the `Length`/2+1 > `Position` then we don't have to switch it, we just need to consider the other half string with new `Length`= `oldLength`/2 and the same `Position`.
 - Return `!result(length, position)` will do the switching easily.
+
+## Problem C ([link](./C/main.cpp)):
+This problem is pretty straight forward. We will use a map point from one string to another string to represent the flight from one city to another. Here we see that the start and end city only appears once, therefore we can made a counting `map<string, int>` to determine the number of time a city name appeared. Then we can iterate through the map, find the element which appear once and not the last city (the start city will point to somewhere, but the last city won't). Then we can output all the city trace from the start city.
+
+Notes:
+- Don't put `int` in the `for` loop of map's iterator. It is a determine pointer type itself to declear before.
+- If you `getline(cin,st)` twice one string will be ignore, use `cin>>st>>st1` instead.
