@@ -6,4 +6,4 @@ My solutions to Google Kickstart 2018.
 
 1. [Kickstart Practice.](../master/Kickstart%20Practice%20Round%202018)
 
-2. [Kickstart Round A 2018.]()
+2. [Kickstart Round A 2018.](../master/Kickstart%20Round%20A%202018)
