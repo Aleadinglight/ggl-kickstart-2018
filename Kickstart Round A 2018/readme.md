@@ -10,3 +10,8 @@ To find the bigger number, it is a little bit trickier. First we need to +2 the 
 
 Notes:
 - Just some tricky things above to keep in mind, nothing more to note.
+
+## Problem B ([link](./B/main.cpp)):
+
+Understand **expected value** by watching [this](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-discrete/e/expected_value).
+
