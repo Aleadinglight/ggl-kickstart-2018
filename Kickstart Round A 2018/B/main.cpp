@@ -1,9 +1,19 @@
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
-int main()
-{
-    cout << "Hello world!" << endl;
+void input(){
+    freopen("input.inp","r",stdin);
+    freopen("output.out","w",stdout);
+    cin>>T;
+    for (int t=1; t<=T; t++){
+        cin>>n>>k;
+
+    }
+}
+
+int main(){
+    input();
     return 0;
 }
