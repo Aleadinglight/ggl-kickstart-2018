@@ -15,3 +15,4 @@ Notes:
 
 Understand **expected value** by watching [this](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-discrete/e/expected_value).
 
+git commit --date="Wed Oct 3 12:00 2018 +0100" -m "added problem B"
