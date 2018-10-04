@@ -6,8 +6,10 @@ int a[20010], k, n, T;
 double E[50010];
 
 void input(){
-    //freopen("input.inp","r",stdin);
-    //freopen("output.out","w",stdout);
+    freopen("input.inp","r",stdin);
+    freopen("output.out","w",stdout);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
     cin>>T;
     for (int t=1; t<=T; t++){
         cin>>n>>k;
@@ -22,7 +24,7 @@ void input(){
             }
             E[i]=1.0*E[i]/n;
         }
-        cout<<"Case #"<<t<<": "<<E[k]<<endl;
+        printf("Case #%i: %.9lf\n",t,E[k]);
         for (int i=0;i<=k;i++)
             E[i]=0;
     }
